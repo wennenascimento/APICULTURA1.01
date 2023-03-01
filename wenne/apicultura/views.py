@@ -4,4 +4,6 @@ from django.http import HttpResponse
 # Create your views here.
 def start(request):
  #return HttpResponse("Meu primeiro response html django")
-    return render(request, 'test.html')
+    return render(request, 'login.html')
+def cadastro(request):
+  return render(request, 'cadastro.html')
