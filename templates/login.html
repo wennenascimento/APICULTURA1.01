@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Login{% endblock %}
+{% block body %}
+
+
+
+<h1>     SEJA BEM-VINDO DE VOLTA         </h1>
+
+
+<form>
+
+    <div>
+        <label>Usuário:</label>
+        <input type="text" name="name" id="name">
+    </div>
+
+
+    <div>
+        <label>Senha:</label>
+        <input type="password" name="mail" id="mail">
+    </div>
+
+
+    <div>
+        <input type="submit" value="Enviar">
+    </div>
+</form>
+
+{% endblock %}
