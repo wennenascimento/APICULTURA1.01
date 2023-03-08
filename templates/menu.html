@@ -2,40 +2,34 @@
 {% load static %}
 {% block menu %}
 
-<h10>CADASTRO DE USUÁRIO!</h10>
 
-<div class="img" >
-    <img src="{% static '/image/api.jpeg' %}" width="200" alt="cc">
+
+
+
+
+<hr>
+
+    <div class="menu">
+        <ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+
+
+      </form>
+
+
+            <li><a  href="#">     <font size="2">  <font face="times"> MENU </font>    </font> </a></li>
+            <li><a  href="#">   <font size="2" >    <font face="times">CADASTRO</font> </font>  </a></li>
+
+        </ul>
     </div>
 
 
 
-<!-- CHAMA O CSS-->
 
 
-
-
-<!-- MENUS -->
-
-
-<nav class="navbar navbar-expand-lg bg-danger">
-  <div class="container-fluid">
-
-    <a class="navbar-brand" href="{% url 'login' %}">apicultura</a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <ul class="dropdown-menu">
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="{% url 'cadastro' %}">Cadastrar</a></li>
-          </ul>
-        </li>
-      </ul>
 
 
 
@@ -44,20 +38,19 @@
       <!-- CAIXA DE PESQUISA-->
 
 
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+
 
 
 <br>
+<hr>
 
 
+<div class="img" >
+    <img src="{% static '/image/api.jpeg' %}" width="1350px"  height="500px" alt="cc">
+    </div>
 
 
+<hr>
 
 <!-- COLUNAS -->
 
