@@ -12,3 +12,10 @@ def cadastro(request):
 
 def menu (request):
           return render (request, 'menu.html')
+
+
+def cadastrarcomeia(request):
+    return render(request, 'cadastrarcomeia.html')
+def header(request):
+    return render(request, 'header.html')
+

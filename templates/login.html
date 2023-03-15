@@ -1,31 +1,37 @@
 {% extends 'base.html' %}
+
 {% load static %}
-
-{% block title %}Login{% endblock %}
-{% block body %}
-
-
-
-<h1>     SEJA BEM-VINDO DE VOLTA         </h1>
+<head>
+    {% block head %}{% endblock %}
+</head>
 
 
-<form>
 
-    <div>
-        <label>Usuário:</label>
-        <input type="text" name="name" id="name">
+<body>
+{% block login %}
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça login<br>Sua apicultura sistematizada!</h1>
+            <img src="{% static 'image/bee-animate.svg' %}" alt="abelha e mel">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Entre com sua senha">
+                </div>
+                <button class="btn-login">Login</button>
+            </div>
+        </div>
     </div>
-
-
-    <div>
-        <label>Senha:</label>
-        <input type="password" name="mail" id="mail">
-    </div>
-
-
-    <div>
-        <input type="submit" value="Enviar">
-    </div>
-</form>
-
 {% endblock %}
+</body>
+
+</html>
+
+
