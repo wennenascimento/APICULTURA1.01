@@ -1,14 +1,16 @@
 {% extends 'base.html' %}
 
 {% load static %}
-<head>
-    {% block head %}{% endblock %}
-</head>
+{% block title %}LOGIN{% endblock %}
+
+ {% block head %}{% endblock %}
 
 
 
-<body>
-{% block login %}
+
+
+{% block conteudo %}
+<form>
     <div class="main-login">
         <div class="left-login">
             <h1>Faça login<br>Sua apicultura sistematizada!</h1>
@@ -29,9 +31,8 @@
             </div>
         </div>
     </div>
+    </form>
 {% endblock %}
-</body>
 
-</html>
 
 
