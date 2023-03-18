@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Adicionar colheita{% endblock %}
+
+{% block conteudo %}
+
+
+   <div class="cadastro">
+
+        <div class="right-cadastro">
+            <div class="card-login">
+                <h1>ADICIONAR COLMEIA</h1>
+                <div class="textfield">
+                     <div class="Possui-Polém">
+                  <label><font style="vertical-align: inherit;">Possui Polem</font></font></label>
+                  <select>
+                      <option value="A">A</option>
+                        <option value="A">A</option>
+                        <option value="A">A</option>
+                        <option value="A">A</option>
+                  </select>
+                </div>
+
+                 <!-- quantidade de Litros-->
+    <div class="Quantidade-litros">
+    <label for="qtedelitros">Quantidade de Litros</label>
+	<input type='number' id='qtedelitros' name='qtedelitros'>
+    <!-- End Example Code -->
+
+
+    <!-- End Example Code -->
+            <!-- Data dA COLHEITA-->
+
+    <div class="row data">
+      <div class="col">
+        <label for="dtdivisao">Data Divisão</label>
+        <input type='date' id='dtdivisao' name='dtdivisao'>
+
+      </div>
+
+
+
+        <!-- End Data  -->
+
+
+
+                </div>
+                <button type="submit" class="btn btn-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cancelar</font></font></button>
+                <button type="resert" class="btn btn-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Enviar</font></font></button>
+ </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+  {% endblock %}

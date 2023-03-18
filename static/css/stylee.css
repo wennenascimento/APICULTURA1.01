@@ -26,6 +26,17 @@ body * {
     align-items: center;
     flex-direction: column;
 }
+.xx-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
 
 .left-login > h1 {
     color: #000000;
@@ -141,3 +152,4 @@ body * {
         width: 90;
     }
 }
+

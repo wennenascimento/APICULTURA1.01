@@ -16,6 +16,6 @@ def menu (request):
 
 def cadastrarcomeia(request):
     return render(request, 'cadastrarcomeia.html')
-def header(request):
-    return render(request, 'header.html')
+def addcolheita(request):
+    return render(request, 'addcolheita.html')
 

@@ -9,7 +9,7 @@ urlpatterns = [
     path("menu/", views.menu, name='menu'),
     path ('login/', views.login,name = 'login'),
     path('cadastrarcomeia/', views.cadastrarcomeia,name='cadastrarcomeia'),
-    path('header/',views.header, name='header'),
+    path('addcolheita/',views.addcolheita, name='addcolheita'),
 
 ]
 
