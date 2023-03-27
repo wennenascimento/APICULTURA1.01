@@ -19,6 +19,7 @@ body * {
 }
 
 .left-login {
+
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -152,4 +153,6 @@ body * {
         width: 90;
     }
 }
+
+
 
